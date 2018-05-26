@@ -1,0 +1,72 @@
+body {
+	background-color: #1DC6E1FF;
+}
+* {
+	box-sizing: border-box;
+}
+.title {
+	font-family: Gourmand;
+	font-size: 50px;
+	border: 3px dotted red;
+	border-radius: 55px;
+	padding-left: 5px;
+	padding-right: 5px;
+    background: white;
+    overflow: hidden;
+}
+.sub-heading {
+	font-size: 40px;
+	font-family: Arial;
+}
+.name {
+	color: grey;
+}
+.paragraph {
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+.number {
+	font-size: 40px;
+}
+.specs {
+    font-size: 18px;
+}
+.list {
+	font-size: 20px;
+}
+.image {
+	width: 400px;
+	margin: 0 auto;
+	min-height: 100px;
+	max-height: 1000px;
+	min-width: 100px;
+	max-width: 1000px;
+}
+.imagetop {
+	border: solid red 0.01px;
+}
+.link-buy {
+	font-size: 20px;
+	border: red solid;
+	margin: 10px;
+	display: inline-block;
+	text-align: center;
+	color: black;
+	background-color: #91BE40FF;
+	padding: 10px;
+}
+.link-buy:hover {
+	background: #7F7F7FFF;
+	color: #7F7F7FFF;
+}
+table th {
+	text-align: left;
+	border: 1px solid red;
+	background-color: grey;
+	font-size: 27px;
+}
+table td {
+	border: 1px solid red;
+	padding: 4px 8px
+	text-align: left;
+	font-size: 27px;
